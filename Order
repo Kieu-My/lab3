@@ -1,0 +1,30 @@
+public class Order{
+    private int orderID;
+    private LocalDate orderDate;
+    private OrderDate;
+    private int count;
+}
+public Order (int orderID, int count)
+{
+    this.orderID = orderID;
+    this.count = count;
+}
+public int getorderID(){
+    return orderID;
+}
+
+public void setorderID(int orderID){
+    this.orderID = orderID;
+}
+
+public int getcount(){
+    return count;
+}
+public void setcount(int count){
+    this.count = count;
+}
+@Override
+    public String toString() {
+        return "product{" + super.toString() + ",orderID  =" + orderID + ",count = " + count +'}';
+    }
+    

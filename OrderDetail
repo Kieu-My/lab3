@@ -1,0 +1,27 @@
+public class OrderDetail{
+    private int quantity;
+    private product;
+    private double calcTotalPrice = quantity * price;
+
+}
+public OrderDetail (int quantity, double calcTotalPrice)
+{
+    this.quantity = quantity;
+    this.calcTotalPrice = calcTotalPrice;
+}
+public int getquantity(){
+    return quantity;
+}
+public void setquantity(int quantity){
+    this.quantity = quantity;
+}
+public int getcalcTotalPrice(){
+    return calcTotalPrice;
+}
+public void calcTotalPrice(int calcTotalPrice){
+    this.calcTotalPrice = calcTotalPrice;
+}
+@Override
+    public String toString() {
+        return "product{" + super.toString() + ",quantity  =" + quantity + ",calcTotalPrice = " + calcTotalPrice +'}';
+    }

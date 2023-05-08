@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+
+public class product{
+    private String description, producID;
+    private double price;
+    public product ( String description, String producID, Double price);
+
+{
+    this.description = description;
+    this.producID = producID;
+    this.price = price;
+}
+public String getdescription(){
+    return description;
+}
+public void setdescription(String description){
+    this.description = description;
+}
+public String getproducID(){
+    return description;
+}
+public void setproducID(String producID){
+    this.producID = producID;
+}
+    public double getprice(){
+    return price;
+}
+public void setprice(double price){
+    this.price = price;
+}
+@Override
+    public String toString() {
+        return "product{" + super.toString() + ",description  =" + description + ",producID = " + producID + ",price = " + price +'}';
+    }
+}
